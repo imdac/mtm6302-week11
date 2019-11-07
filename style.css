@@ -3,12 +3,21 @@ body {
   font-family: sans-serif;
 }
 
+.main {
+  display: grid;
+  justify-content: center;
+}
+
 .section {
   display: grid;
   justify-content: center;
   align-items: center;
   padding: 50px;
   border-bottom: 2px dashed #ccc;
+}
+
+.section:last-child {
+  max-width: 600px;
 }
 
 header {
